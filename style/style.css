@@ -3,7 +3,16 @@
   padding: 0;
 }
 
-.row {
-  border: 1px solid red;
+header {
+  border: 1px #00ff0d solid;
+}
+
+th {
+  padding: 10px;
+  background-color: #f08800;
+}
+
+tr {
+  background-color: rgba(0, 0, 0, 0.925);
 }
 /*# sourceMappingURL=style.css.map */

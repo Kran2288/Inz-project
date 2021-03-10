@@ -8,9 +8,32 @@
     <title>Inz-project</title>
 </head>
 <body>
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-8">.col-sm-8</div>
-</div>
+<?php
+    require_once 'include/db.php';
+  ?> 
+<header>
+  <div class="row header">
+    <div class="col-sm-3">.col-sm-4</div>
+    <div class="col-sm-8">.col-sm-8</div>
+  </div>
+</header>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
+  <?php
+    $news_name = mysqli_query($mysql, query:"")
+  ?>
+  <tr>
+    <th>1</th>
+    <th>News-1</th>
+    <th>Lorem ipsum dolor sit amet.</th>
+  </tr>
+ 
+</table>
+
+ 
 </body>
 </html>
