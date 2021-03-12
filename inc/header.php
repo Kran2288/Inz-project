@@ -16,7 +16,7 @@
     <div>
         <h2 class='header__title-text '>Самые интересные новости<br> связанные с россией <br>и не только</h2>
     </div>
-    <a href="page/new.html" class="btn"><p class="btn-p">Переход по ссылке</p></a>
+    <a href="" class="btn-1"><p class="btn-p">Смотреть все новости</p></a>
     </div>
 
 </header>

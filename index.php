@@ -1,6 +1,4 @@
-<?php
-    require_once 'include/db.php';
-  ?> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +11,12 @@
     <title>Inz-project</title>
 </head>
 <body>
+<?php
+    require_once 'include/db.php';
+
+    $result = mysqli_query($connect, "SELECT * FROM `social_networks`");
+    
+  ?> 
   <? include "inc/header.php" ?>
 
 <!-- <header>
@@ -38,6 +42,11 @@
  
 </table> -->
 
- 
+
+<? include "inc/footer.php" ?>
+<script src="https://kit.fontawesome.com/4e625ca82e.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
